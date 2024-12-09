@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #48422b;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #d9d9d9; /* Fundo do container principal */
+  width: 350px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-family: "Just Another Hand", cursive;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fdd7d7; /* Fundo do input */
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50; /* Cor do botão de adicionar */
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c; /* Cor ao passar o mouse */
+}
+
+/* Lista de tarefas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: white; /* Fundo dos itens */
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  flex: 1;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+li button {
+  background-color: #e53935; /* Botão delete */
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c62828; /* Cor do botão delete ao passar o mouse */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
